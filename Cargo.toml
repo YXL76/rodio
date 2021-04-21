@@ -16,7 +16,8 @@ lewton = { version = "0.10", optional = true }
 minimp3 = { version = "0.5", optional = true }
 
 [dependencies.cpal]
-git = "https://github.com/RustAudio/cpal"
+git = "https://github.com/YXL76/cpal"
+branch = "test"
 
 [features]
 default = ["flac", "vorbis", "wav", "mp3"]
