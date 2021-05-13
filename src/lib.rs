@@ -97,7 +97,7 @@
 //!
 #![cfg_attr(test, deny(missing_docs))]
 pub use cpal::{
-    traits::DeviceTrait, Device, Devices, DevicesError, InputDevices, OutputDevices,
+    self, traits::DeviceTrait, Device, Devices, DevicesError, InputDevices, OutputDevices,
     SupportedStreamConfig,
 };
 
